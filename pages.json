@@ -1,0 +1,209 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				// "navigationStyle": "custom",
+				"h5":{
+					"titleNView": {
+						"backgroundColor":"#009788",
+						"type": "default",
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "16px",
+							"align":"left",
+							// "autoFocus":true,
+							"placeholder": "请输入搜索内容",
+							// "disabled": true,
+							"placeholderColor": "#101010"
+						},
+						"buttons": [{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "\ue626",
+								"fontSize": "20",
+								"color": "#fff",
+								"float": "left",
+								"background": "rgba(0,0,0,0)"
+							},
+							{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "\ue62d",
+								"fontSize": "20",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)"
+								// "badgeText" : "12"  
+								// "redDot": true
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/loading",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/caigou/caigouScan",
+			"style": {
+				// "navigationBarTitleText": "采购扫码",
+				// "navigationStyle": "default",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"采购扫码",
+						"type": "default"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/caigou/caigouScanRecord",
+			"style": {
+				// "navigationBarTitleText": "采购扫码记录",
+				// "navigationStyle": "default",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"采购扫码记录",
+						"type": "default"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/caigou/selfScan",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				// "navigationStyle": "custom",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"自用扫码",
+						"type": "default"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/caigou/selfScanRecord",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				// "navigationStyle": "custom",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"自用扫码记录",
+						"type": "default"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/fenxiao/fenxiaoRturnScan",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				// "navigationStyle": "custom",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"分销退货扫码",
+						"type": "default"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/fenxiao/fenxiaoScan",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				// "navigationStyle": "custom",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"分销扫码",
+						"type": "default"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/fenxiao/fenxiaoSendRecord",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				// "navigationStyle": "custom",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"我的发货记录",
+						"type": "default"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/lingshou/lingshouReturnScan",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				// "navigationStyle": "custom",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"零售退货扫码",
+						"type": "default"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/lingshou/lingshouScan",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				// "navigationStyle": "custom",
+				"h5": {
+					"titleNView":{
+						"backgroundColor":"#009788",
+						"titleColor":"#ffffff",
+						"titleText":"零售扫码",
+						"type": "default"
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "saselomo",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
